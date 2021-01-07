@@ -312,8 +312,11 @@ function initMap(x) {
             };
            }else if(x==0){
                 map.data.loadGeoJson('./mitakashi.geojson');
-        }
-    };
+           }
+	    }
+}
+    
+    
     if((x==10){
        map.data.loadGeoJson('./nami.geojson');
     }
