@@ -128,7 +128,7 @@ function initMap(x) {
             ]
         }]
         });
-	map.data.loadGeoJson('mitakashi.geojson');//initmapの中で必ず定義する
+// 	map.data.loadGeoJson('mitakashi.geojson');//initmapの中で必ず定義する
 	map.data.setStyle({
             //fillColor: 'red',
             strokeWeight: 0.5
