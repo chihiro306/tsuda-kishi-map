@@ -314,6 +314,9 @@ function initMap(x) {
                 map.data.loadGeoJson('./mitakashi.geojson');
         }
     };
+    if((x==10){
+       map.data.loadGeoJson('./nami.geojson');
+    }
 }
 function Conveni() {
     c1++;
